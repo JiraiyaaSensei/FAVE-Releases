@@ -18,20 +18,26 @@ Do not download GitHub's automatically generated **Source code** archives. Those
 
 * Video, audio, subtitle, and attachment stream analysis
 * Drag-and-drop media loading
-* `libx264` and `libx265` software encoding
-* `h264_nvenc` and `hevc_nvenc` NVIDIA hardware encoding
-* Opus, AAC, FLAC, AC3 and libmp3lame audio encoding
+* libx264 and libx265 software encoding
+* h264_nvenc and hevc_nvenc NVIDIA hardware encoding
+* Opus, AAC, FLAC, AC3, and libmp3lame audio encoding
 * Configurable quality, resolution, bitrate, speed, and encoder parameters
 * JSON-based encoding presets
+* Preset and custom tag management
 * Internal and external subtitle support
 * Video trimming and multiple-segment selection
+* Timeline-aware encoding with automatic handling of continuous and discontinuous segments
 * Matroska ordered chapters with external segment linking
 * Single-file and batch queue encoding
+* Concurrent encoding operations with independently tracked encoding processes
+* Separate segment encoding with automatic segment joining
 * Real-time progress, estimated completion time, and detailed logs
 * Pause, resume, and stop controls
 * Output CRC generation
 * Configurable post-encoding actions
-
+* Dedicated per-job temporary workspace for encoding and join operations
+* Automatic cleanup of temporary job data after successful processing, with failed jobs retained for debugging
+  
 ## System Requirements
 
 * Windows 10 or later
