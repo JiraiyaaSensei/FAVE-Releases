@@ -1,5 +1,6 @@
-# F.A.V.E
+<img width="512" height="511" alt="FAVE_icon1" src="https://github.com/user-attachments/assets/a2af227a-0a3a-4e60-a6e4-184fd0aac237" />
 
+# F.A.V.E
 **F.A.V.E — FFmpeg Audio & Video Encoder** is a Windows desktop application that provides an easy-to-use graphical interface for FFmpeg.
 
 It is designed for users who want to encode, inspect, trim, and manage media files without manually writing FFmpeg commands.
